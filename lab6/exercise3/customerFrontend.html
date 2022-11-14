@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css">
     <title>Lab 6 Exercise 3</title>
 </head>
 <body>
+    <form action="myBackend.php" method="post"> 
+		<strong></strong>
+	
+        Name: <input type="text" name="name"><br> 
+        E-mail: <input type="text" name="email"><br> 
+		<br>
+		<strong>Select Shipping:</strong> <br>
+		<input type="radio" name="shipping" value="seven">FREE SHIPPING - 7 days<br>
+		<input type="radio" name="shipping" value="overnight">$50.00 - Overnight Shipping<br>
+		<input type="radio" name="shipping" value="three">$5.00 - 3 Days<br>
+	</form> 
+	
+	<button id="btnReset">Reset</button>
+	<button id="btnSubmit">Submit</button>
+	
+	
+	<br><br>
 	<a href="/~c701n556/index.html">Go Back</a>
 </body>
 </html>
